@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(54deg,rgb(12, 10, 10),rgb(46, 45, 45));
+    height: 100vh;
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#computerGuess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+#guessed{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#result{
+    font-size: 40px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 20px;
+    border: none;
+}
+input:focus{
+    border: transparent;
+}
+button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+}
+button:hover{
+    background-color: #F0F8FF;
+    transform: scale(1.1);
+}
